@@ -39,11 +39,10 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <subviews>
                                             <button opaque="NO" tag="7" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WR8-4k-RDg">
-                                                <rect key="frame" x="36" y="18" width="95" height="70"/>
+                                                <rect key="frame" x="52" y="14" width="80" height="80"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" red="0.0" green="0.56904578210000001" blue="0.57461684940000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" name="MetroBold" family="Metro" pointSize="32"/>
-                                                <state key="normal" title="7">
+                                                <state key="normal" title="7" backgroundImage="circle.png">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <connections>
@@ -51,11 +50,10 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="8" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l9Y-wg-Zgg">
-                                                <rect key="frame" x="141" y="18" width="95" height="70"/>
+                                                <rect key="frame" x="140" y="14" width="80" height="80"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" red="0.0" green="0.56904578210000001" blue="0.57461684940000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" name="MetroBold" family="Metro" pointSize="32"/>
-                                                <state key="normal" title="8">
+                                                <state key="normal" title="8" backgroundImage="circle.png">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <connections>
@@ -63,11 +61,10 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="9" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H9Z-JW-7wQ">
-                                                <rect key="frame" x="246" y="18" width="95" height="70"/>
+                                                <rect key="frame" x="228" y="14" width="80" height="80"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" red="0.0" green="0.56904578210000001" blue="0.57461684940000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" name="MetroBold" family="Metro" pointSize="32"/>
-                                                <state key="normal" title="9">
+                                                <state key="normal" title="9" backgroundImage="circle.png">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <connections>
@@ -75,11 +72,10 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="4" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RAN-Wz-rov">
-                                                <rect key="frame" x="35" y="98" width="95" height="70"/>
+                                                <rect key="frame" x="52" y="102" width="80" height="80"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" red="0.0" green="0.56904578210000001" blue="0.57461684940000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" name="MetroBold" family="Metro" pointSize="32"/>
-                                                <state key="normal" title="4">
+                                                <state key="normal" title="4" backgroundImage="circle.png">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <connections>
@@ -87,11 +83,10 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hhD-dh-cSQ">
-                                                <rect key="frame" x="140" y="98" width="95" height="70"/>
+                                                <rect key="frame" x="140" y="102" width="80" height="80"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" red="0.0" green="0.56904578210000001" blue="0.57461684940000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" name="MetroBold" family="Metro" pointSize="32"/>
-                                                <state key="normal" title="5">
+                                                <state key="normal" title="5" backgroundImage="circle.png">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <connections>
@@ -99,11 +94,10 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="6" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9vx-DK-4QH">
-                                                <rect key="frame" x="245" y="98" width="95" height="70"/>
+                                                <rect key="frame" x="228" y="102" width="80" height="80"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" red="0.0" green="0.56904578210000001" blue="0.57461684940000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" name="MetroBold" family="Metro" pointSize="32"/>
-                                                <state key="normal" title="6">
+                                                <state key="normal" title="6" backgroundImage="circle.png">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <connections>
@@ -111,11 +105,10 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dyC-1f-5m2">
-                                                <rect key="frame" x="35" y="178" width="95" height="70"/>
+                                                <rect key="frame" x="52" y="190" width="80" height="80"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" red="0.0" green="0.56904578210000001" blue="0.57461684940000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" name="MetroBold" family="Metro" pointSize="32"/>
-                                                <state key="normal" title="1">
+                                                <state key="normal" title="1" backgroundImage="circle.png">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <connections>
@@ -123,35 +116,21 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y50-lW-6X5">
-                                                <rect key="frame" x="140" y="178" width="95" height="70"/>
+                                                <rect key="frame" x="140" y="190" width="80" height="80"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" red="0.0" green="0.56904578210000001" blue="0.57461684940000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" name="MetroBold" family="Metro" pointSize="32"/>
-                                                <state key="normal" title="2">
+                                                <state key="normal" title="2" backgroundImage="circle.png">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <connections>
                                                     <action selector="buttonsManager:" destination="BYZ-38-t0r" eventType="touchUpInside" id="s0t-Uj-O54"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SGq-dc-66i">
-                                                <rect key="frame" x="245" y="178" width="95" height="70"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" red="0.0" green="0.56904578210000001" blue="0.57461684940000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <fontDescription key="fontDescription" name="MetroBold" family="Metro" pointSize="32"/>
-                                                <state key="normal" title="3">
-                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                </state>
-                                                <connections>
-                                                    <action selector="buttonsManager:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NX9-A1-0i7"/>
-                                                </connections>
-                                            </button>
                                             <button opaque="NO" tag="10" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gs3-m9-sAU">
-                                                <rect key="frame" x="245" y="258" width="95" height="70"/>
+                                                <rect key="frame" x="228" y="278" width="80" height="80"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" red="0.0" green="0.56904578210000001" blue="0.57461684940000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="32"/>
-                                                <state key="normal" title=".">
+                                                <state key="normal" title="." backgroundImage="circle.png">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <connections>
@@ -159,43 +138,51 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MLU-s2-eQk">
-                                                <rect key="frame" x="34" y="258" width="201" height="71"/>
+                                                <rect key="frame" x="52" y="281" width="80" height="80"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" red="0.0" green="0.56904578210000001" blue="0.57461684940000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="24"/>
-                                                <state key="normal" title="0">
+                                                <state key="normal" title="0" backgroundImage="circle.png">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <connections>
                                                     <action selector="buttonsManager:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NSg-Tz-y70"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" alpha="0.20000000000000001" tag="12" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EaG-cN-3CC">
-                                                <rect key="frame" x="195" y="339" width="144" height="70"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" red="0.0" green="0.56904578210000001" blue="0.57461684940000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <fontDescription key="fontDescription" name="MetroBold" family="Metro" pointSize="42"/>
-                                                <state key="normal" title="+ tx">
-                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                </state>
-                                                <connections>
-                                                    <action selector="buttonsManager:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6uf-xh-GGV"/>
-                                                </connections>
-                                            </button>
                                             <button opaque="NO" alpha="0.20000000000000001" tag="11" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="40H-zs-RQN">
-                                                <rect key="frame" x="37" y="340" width="144" height="70"/>
+                                                <rect key="frame" x="140" y="281" width="80" height="80"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" red="0.0" green="0.56904578210000001" blue="0.57461684940000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" name="MetroBold" family="Metro" pointSize="42"/>
-                                                <state key="normal" title="+">
+                                                <state key="normal" title="+" backgroundImage="circle.png">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <connections>
                                                     <action selector="buttonsManager:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bKu-Dt-Zh4"/>
                                                 </connections>
                                             </button>
+                                            <button opaque="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SGq-dc-66i">
+                                                <rect key="frame" x="228" y="190" width="80" height="80"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="MetroBold" family="Metro" pointSize="32"/>
+                                                <state key="normal" title="3" backgroundImage="circle.png">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="buttonsManager:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NX9-A1-0i7"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" alpha="0.20000000000000001" tag="12" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EaG-cN-3CC">
+                                                <rect key="frame" x="140" y="366" width="80" height="80"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="MetroBold" family="Metro" pointSize="42"/>
+                                                <state key="normal" title="+ tx" backgroundImage="circle.png">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="buttonsManager:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6uf-xh-GGV"/>
+                                                </connections>
+                                            </button>
                                         </subviews>
-                                        <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="backgroundColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
                                     </view>
                                 </subviews>
                                 <color key="backgroundColor" red="0.4400995264" green="0.71214414260000003" blue="0.68605007730000001" alpha="1" colorSpace="calibratedRGB"/>
@@ -204,21 +191,20 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TDK-3B-EDq">
-                                        <rect key="frame" x="89" y="38" width="198" height="55"/>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="2000px-Meijer_logo.svg.png" translatesAutoresizingMaskIntoConstraints="NO" id="TDK-3B-EDq">
+                                        <rect key="frame" x="137" y="31" width="100" height="38"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" red="1" green="0.0" blue="0.28014486039999997" alpha="1" colorSpace="calibratedRGB"/>
                                     </imageView>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" preservesSuperviewLayoutMargins="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OL4-IR-tx3">
-                                        <rect key="frame" x="317" y="38" width="50" height="50"/>
+                                        <rect key="frame" x="324" y="26" width="43" height="43"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" image="arrow-point-to-right.png"/>
+                                        <state key="normal" image="shopping-basket.png"/>
                                         <connections>
                                             <segue destination="DFU-fL-koU" kind="presentation" identifier="mySeg" id="rri-rb-fbj"/>
                                         </connections>
                                     </button>
                                 </subviews>
-                                <color key="backgroundColor" red="0.0018558051669970155" green="0.56960707902908325" blue="0.57558363676071167" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.90588235294117647" green="0.29803921568627451" blue="0.23529411764705882" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IJB-gr-hGP" userLabel="bottom">
                                 <rect key="frame" x="0.0" y="547" width="375" height="120"/>
@@ -256,7 +242,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
-                                <color key="backgroundColor" red="0.39394164044006252" green="0.58440363219895297" blue="0.54394105709900242" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.90747958421707153" green="0.2969527542591095" blue="0.23558339476585388" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -300,13 +286,12 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oL6-Cl-FSd">
-                                        <rect key="frame" x="89" y="38" width="197" height="55"/>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="2000px-Meijer_logo.svg.png" translatesAutoresizingMaskIntoConstraints="NO" id="oL6-Cl-FSd">
+                                        <rect key="frame" x="137" y="31" width="100" height="38"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" red="1" green="0.0" blue="0.28014486039999997" alpha="1" colorSpace="calibratedRGB"/>
                                     </imageView>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bp0-q1-RWQ">
-                                        <rect key="frame" x="8" y="38" width="50" height="50"/>
+                                        <rect key="frame" x="8" y="28" width="41" height="41"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" image="arrow-point-to-left.png"/>
                                         <connections>
@@ -314,7 +299,7 @@
                                         </connections>
                                     </button>
                                 </subviews>
-                                <color key="backgroundColor" red="0.0018558051669970155" green="0.56960707902908325" blue="0.57558363676071167" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.90747958421707153" green="0.2969527542591095" blue="0.23558339476585388" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YdP-DN-iNt">
                                 <rect key="frame" x="0.0" y="509" width="375" height="158"/>
@@ -340,7 +325,7 @@
                                         </connections>
                                     </button>
                                 </subviews>
-                                <color key="backgroundColor" red="0.39394164040000001" green="0.58440363220000002" blue="0.54394105709999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.90747958421707153" green="0.2969527542591095" blue="0.23558339476585388" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
                         </subviews>
                         <color key="backgroundColor" red="0.35771746440000002" green="0.40974721860000002" blue="0.27663351520000001" alpha="1" colorSpace="calibratedRGB"/>
@@ -351,11 +336,13 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FgO-9I-rK5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="639" y="99"/>
+            <point key="canvasLocation" x="637.60000000000002" y="98.50074962518741"/>
         </scene>
     </scenes>
     <resources>
+        <image name="2000px-Meijer_logo.svg.png" width="2778" height="1064"/>
         <image name="arrow-point-to-left.png" width="512" height="512"/>
-        <image name="arrow-point-to-right.png" width="512" height="512"/>
+        <image name="circle.png" width="311" height="311"/>
+        <image name="shopping-basket.png" width="512" height="512"/>
     </resources>
 </document>

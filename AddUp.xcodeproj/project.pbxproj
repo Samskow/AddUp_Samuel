@@ -7,8 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7EC201C61FAE701E007621A0 /* arrow-point-to-right.png in Resources */ = {isa = PBXBuildFile; fileRef = 7EC201C51FAE701E007621A0 /* arrow-point-to-right.png */; };
-		7EC201C81FAE71B9007621A0 /* arrow-point-to-left.png in Resources */ = {isa = PBXBuildFile; fileRef = 7EC201C71FAE71B8007621A0 /* arrow-point-to-left.png */; };
+		7ECB1C3F1FAE9E1200C39646 /* 12-27-meijer2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7ECB1C3E1FAE9E1200C39646 /* 12-27-meijer2.jpg */; };
+		7ECB1C411FAEA20A00C39646 /* circle.png in Resources */ = {isa = PBXBuildFile; fileRef = 7ECB1C401FAEA20900C39646 /* circle.png */; };
+		7EF81ED61FAE920300492BCC /* 2000px-Meijer_logo.svg.png in Resources */ = {isa = PBXBuildFile; fileRef = 7EF81ED21FAE920200492BCC /* 2000px-Meijer_logo.svg.png */; };
+		7EF81ED71FAE920300492BCC /* arrow-point-to-right.png in Resources */ = {isa = PBXBuildFile; fileRef = 7EF81ED31FAE920200492BCC /* arrow-point-to-right.png */; };
+		7EF81ED81FAE920300492BCC /* arrow-point-to-left.png in Resources */ = {isa = PBXBuildFile; fileRef = 7EF81ED41FAE920200492BCC /* arrow-point-to-left.png */; };
+		7EF81ED91FAE920300492BCC /* shopping-basket.png in Resources */ = {isa = PBXBuildFile; fileRef = 7EF81ED51FAE920200492BCC /* shopping-basket.png */; };
 		9D355DC81D70946100D4D755 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D4DEC4F1D6DDE39001490B9 /* Main.storyboard */; };
 		9D4DEC4C1D6DDE39001490B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4DEC4B1D6DDE39001490B9 /* AppDelegate.swift */; };
 		9D4DEC4E1D6DDE39001490B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4DEC4D1D6DDE39001490B9 /* ViewController.swift */; };
@@ -20,8 +24,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7EC201C51FAE701E007621A0 /* arrow-point-to-right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "arrow-point-to-right.png"; path = "Images/arrow-point-to-right.png"; sourceTree = "<group>"; };
-		7EC201C71FAE71B8007621A0 /* arrow-point-to-left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "arrow-point-to-left.png"; path = "Images/arrow-point-to-left.png"; sourceTree = "<group>"; };
+		7ECB1C3E1FAE9E1200C39646 /* 12-27-meijer2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "12-27-meijer2.jpg"; path = "Images/12-27-meijer2.jpg"; sourceTree = "<group>"; };
+		7ECB1C401FAEA20900C39646 /* circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = circle.png; path = Images/circle.png; sourceTree = "<group>"; };
+		7EF81ED21FAE920200492BCC /* 2000px-Meijer_logo.svg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "2000px-Meijer_logo.svg.png"; path = "Images/2000px-Meijer_logo.svg.png"; sourceTree = "<group>"; };
+		7EF81ED31FAE920200492BCC /* arrow-point-to-right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "arrow-point-to-right.png"; path = "Images/arrow-point-to-right.png"; sourceTree = "<group>"; };
+		7EF81ED41FAE920200492BCC /* arrow-point-to-left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "arrow-point-to-left.png"; path = "Images/arrow-point-to-left.png"; sourceTree = "<group>"; };
+		7EF81ED51FAE920200492BCC /* shopping-basket.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "shopping-basket.png"; path = "Images/shopping-basket.png"; sourceTree = "<group>"; };
 		9D4DEC481D6DDE38001490B9 /* AddUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AddUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D4DEC4B1D6DDE39001490B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9D4DEC4D1D6DDE39001490B9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -45,6 +53,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7EF81ED11FAE91F600492BCC /* images */ = {
+			isa = PBXGroup;
+			children = (
+				7ECB1C401FAEA20900C39646 /* circle.png */,
+				7ECB1C3E1FAE9E1200C39646 /* 12-27-meijer2.jpg */,
+				7EF81ED21FAE920200492BCC /* 2000px-Meijer_logo.svg.png */,
+				7EF81ED41FAE920200492BCC /* arrow-point-to-left.png */,
+				7EF81ED31FAE920200492BCC /* arrow-point-to-right.png */,
+				7EF81ED51FAE920200492BCC /* shopping-basket.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
 		9D4DEC3F1D6DDE37001490B9 = {
 			isa = PBXGroup;
 			children = (
@@ -64,7 +85,7 @@
 		9D4DEC4A1D6DDE38001490B9 /* AddUp */ = {
 			isa = PBXGroup;
 			children = (
-				9DA1D6821D7621090084B01E /* Images */,
+				7EF81ED11FAE91F600492BCC /* images */,
 				9DA1D6811D7620FA0084B01E /* Fonts */,
 				9D4DEC4B1D6DDE39001490B9 /* AppDelegate.swift */,
 				9D741FF11D74BA260064B267 /* Singleton.swift */,
@@ -84,23 +105,6 @@
 			children = (
 			);
 			name = Fonts;
-			sourceTree = "<group>";
-		};
-		9DA1D6821D7621090084B01E /* Images */ = {
-			isa = PBXGroup;
-			children = (
-				7EC201C71FAE71B8007621A0 /* arrow-point-to-left.png */,
-				7EC201C51FAE701E007621A0 /* arrow-point-to-right.png */,
-				9DC593451D787D9C00D65655 /* icons */,
-			);
-			name = Images;
-			sourceTree = "<group>";
-		};
-		9DC593451D787D9C00D65655 /* icons */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = icons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,10 +167,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7EC201C81FAE71B9007621A0 /* arrow-point-to-left.png in Resources */,
-				7EC201C61FAE701E007621A0 /* arrow-point-to-right.png in Resources */,
+				7EF81ED71FAE920300492BCC /* arrow-point-to-right.png in Resources */,
 				9D4DEC561D6DDE39001490B9 /* LaunchScreen.storyboard in Resources */,
+				7EF81ED81FAE920300492BCC /* arrow-point-to-left.png in Resources */,
+				7ECB1C411FAEA20A00C39646 /* circle.png in Resources */,
+				7EF81ED91FAE920300492BCC /* shopping-basket.png in Resources */,
+				7ECB1C3F1FAE9E1200C39646 /* 12-27-meijer2.jpg in Resources */,
 				9D355DC81D70946100D4D755 /* Main.storyboard in Resources */,
+				7EF81ED61FAE920300492BCC /* 2000px-Meijer_logo.svg.png in Resources */,
 				9D4DEC531D6DDE39001490B9 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
