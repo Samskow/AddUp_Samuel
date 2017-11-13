@@ -11,6 +11,7 @@
 		7E0DA2BD1FB8E898004F652B /* lauchlogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E0DA2BC1FB8E897004F652B /* lauchlogo.png */; };
 		7E0DA2BF1FB8EE40004F652B /* rubbish-bin.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E0DA2BE1FB8EE40004F652B /* rubbish-bin.png */; };
 		7E0DA2C11FB8F353004F652B /* Roundbutton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E0DA2C01FB8F353004F652B /* Roundbutton.swift */; };
+		7E78F3081FB9F3A1005B778C /* RoundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E78F3071FB9F3A1005B778C /* RoundView.swift */; };
 		7ECB1C3F1FAE9E1200C39646 /* 12-27-meijer2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7ECB1C3E1FAE9E1200C39646 /* 12-27-meijer2.jpg */; };
 		7ECB1C411FAEA20A00C39646 /* circle.png in Resources */ = {isa = PBXBuildFile; fileRef = 7ECB1C401FAEA20900C39646 /* circle.png */; };
 		7EF81ED61FAE920300492BCC /* 2000px-Meijer_logo.svg.png in Resources */ = {isa = PBXBuildFile; fileRef = 7EF81ED21FAE920200492BCC /* 2000px-Meijer_logo.svg.png */; };
@@ -32,6 +33,7 @@
 		7E0DA2BC1FB8E897004F652B /* lauchlogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = lauchlogo.png; path = Images/lauchlogo.png; sourceTree = "<group>"; };
 		7E0DA2BE1FB8EE40004F652B /* rubbish-bin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "rubbish-bin.png"; path = "Images/rubbish-bin.png"; sourceTree = "<group>"; };
 		7E0DA2C01FB8F353004F652B /* Roundbutton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Roundbutton.swift; sourceTree = "<group>"; };
+		7E78F3071FB9F3A1005B778C /* RoundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundView.swift; sourceTree = "<group>"; };
 		7ECB1C3E1FAE9E1200C39646 /* 12-27-meijer2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "12-27-meijer2.jpg"; path = "Images/12-27-meijer2.jpg"; sourceTree = "<group>"; };
 		7ECB1C401FAEA20900C39646 /* circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = circle.png; path = Images/circle.png; sourceTree = "<group>"; };
 		7EF81ED21FAE920200492BCC /* 2000px-Meijer_logo.svg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "2000px-Meijer_logo.svg.png"; path = "Images/2000px-Meijer_logo.svg.png"; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 				9DC7199B1D77229C0063670B /* MichiganTaxes.swift */,
 				9D7E0FCC1D75D67800D2ADFA /* TableController.swift */,
 				7E0DA2C01FB8F353004F652B /* Roundbutton.swift */,
+				7E78F3071FB9F3A1005B778C /* RoundView.swift */,
 				9D4DEC4F1D6DDE39001490B9 /* Main.storyboard */,
 				9D4DEC521D6DDE39001490B9 /* Assets.xcassets */,
 				9D4DEC541D6DDE39001490B9 /* LaunchScreen.storyboard */,
@@ -202,6 +205,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7E0DA2C11FB8F353004F652B /* Roundbutton.swift in Sources */,
+				7E78F3081FB9F3A1005B778C /* RoundView.swift in Sources */,
 				9D7E0FCD1D75D67800D2ADFA /* TableController.swift in Sources */,
 				9D4DEC4E1D6DDE39001490B9 /* ViewController.swift in Sources */,
 				9D741FF21D74BA260064B267 /* Singleton.swift in Sources */,

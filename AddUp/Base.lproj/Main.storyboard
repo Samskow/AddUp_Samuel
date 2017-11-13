@@ -35,7 +35,7 @@
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yaN-zr-8VF">
                                 <rect key="frame" x="0.0" y="100" width="375" height="467"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="T7e-3L-zFz">
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="T7e-3L-zFz" customClass="RoundView" customModule="AddUp" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="599.5"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" alpha="0.65000000000000002" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="launchscreen.png" translatesAutoresizingMaskIntoConstraints="NO" id="qJm-Y8-Ck9">
@@ -362,6 +362,11 @@
                                             <constraint firstItem="u8M-ts-Kkz" firstAttribute="top" secondItem="T7e-3L-zFz" secondAttribute="top" constant="20" id="ta7-uJ-fE3"/>
                                             <constraint firstAttribute="height" secondItem="u8M-ts-Kkz" secondAttribute="height" constant="40" id="wOQ-Ce-iRy"/>
                                         </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="3"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
                                         <variation key="default">
                                             <mask key="constraints">
                                                 <exclude reference="AHF-e0-456"/>
@@ -488,6 +493,11 @@
                                     <constraint firstItem="OL4-IR-tx3" firstAttribute="centerX" secondItem="Ei0-gN-114" secondAttribute="centerX" id="Zf4-Fj-Ci0"/>
                                     <constraint firstAttribute="trailing" secondItem="OL4-IR-tx3" secondAttribute="trailing" constant="48" id="qqk-Kt-Ir9"/>
                                 </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                                 <variation key="default">
                                     <mask key="constraints">
                                         <exclude reference="9I9-yk-biL"/>
@@ -605,10 +615,10 @@
                                 <variation key="default">
                                     <mask key="constraints">
                                         <exclude reference="LIp-DW-9GV"/>
-                                        <exclude reference="DuF-08-K8P"/>
                                         <exclude reference="fNr-53-Fom"/>
                                         <exclude reference="kLy-kR-KFg"/>
                                         <exclude reference="yB7-YK-u5e"/>
+                                        <exclude reference="DuF-08-K8P"/>
                                         <exclude reference="141-hW-x1D"/>
                                         <exclude reference="YpP-aY-X1M"/>
                                         <exclude reference="bn6-jf-8eE"/>
@@ -621,14 +631,14 @@
                                     <mask key="constraints">
                                         <exclude reference="IM6-iM-0rf"/>
                                         <include reference="LIp-DW-9GV"/>
-                                        <exclude reference="9GB-6U-qLK"/>
-                                        <include reference="DuF-08-K8P"/>
-                                        <exclude reference="V9E-u7-Ggn"/>
                                         <exclude reference="BLY-Ce-7wp"/>
                                         <exclude reference="Iaj-19-ynZ"/>
                                         <exclude reference="fNr-53-Fom"/>
                                         <include reference="kLy-kR-KFg"/>
                                         <include reference="yB7-YK-u5e"/>
+                                        <exclude reference="9GB-6U-qLK"/>
+                                        <include reference="DuF-08-K8P"/>
+                                        <exclude reference="V9E-u7-Ggn"/>
                                         <include reference="141-hW-x1D"/>
                                         <exclude reference="4AR-8D-i4U"/>
                                         <exclude reference="SCj-J4-Zbf"/>
@@ -698,12 +708,12 @@
                                 <exclude reference="XlK-Ds-dKY"/>
                                 <exclude reference="h8T-OD-grU"/>
                                 <include reference="rUm-FU-o2M"/>
+                                <exclude reference="Ype-pL-xdv"/>
+                                <exclude reference="dzS-I8-Ndj"/>
                                 <include reference="0Ha-jz-JHp"/>
                                 <include reference="SJ7-5O-54e"/>
                                 <exclude reference="mcV-lA-KAP"/>
                                 <include reference="tEd-W4-XQv"/>
-                                <exclude reference="Ype-pL-xdv"/>
-                                <exclude reference="dzS-I8-Ndj"/>
                             </mask>
                         </variation>
                     </view>
@@ -731,6 +741,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launchscreen.png" translatesAutoresizingMaskIntoConstraints="NO" id="EnL-Ry-b3C">
+                                <rect key="frame" x="0.0" y="100" width="835" height="1334"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="EnL-Ry-b3C" secondAttribute="height" multiplier="375:599" id="9Uf-Ff-ZBa"/>
+                                </constraints>
+                            </imageView>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="4Xr-ai-dcN">
                                 <rect key="frame" x="0.0" y="100" width="375" height="409"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -782,15 +798,23 @@
                                             <outlet property="delegate" destination="DFU-fL-koU" id="SWY-vm-ssi"/>
                                         </connections>
                                     </pickerView>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FlN-PR-Jcg">
-                                        <rect key="frame" x="248" y="39" width="127" height="80"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FlN-PR-Jcg" customClass="Roundbutton" customModule="AddUp" customModuleProvider="target">
+                                        <rect key="frame" x="238" y="39" width="127" height="80"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="FlN-PR-Jcg" secondAttribute="height" multiplier="127:80" id="Sf5-7i-Fw6"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" name="MetroBold" family="Metro" pointSize="24"/>
-                                        <state key="normal" title="Set Budget">
+                                        <fontDescription key="fontDescription" name="MetroBold" family="Metro" pointSize="16"/>
+                                        <state key="normal" title=" Définir le budget ">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                <color key="value" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                <real key="value" value="2"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
                                         <connections>
                                             <action selector="settingBudget:" destination="DFU-fL-koU" eventType="touchUpInside" id="LRj-nd-xZl"/>
                                         </connections>
@@ -798,10 +822,10 @@
                                 </subviews>
                                 <color key="backgroundColor" red="0.90747958421707153" green="0.2969527542591095" blue="0.23558339476585388" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstItem="FlN-PR-Jcg" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="YdP-DN-iNt" secondAttribute="leading" constant="20" symbolic="YES" id="9H6-Qw-hU3"/>
+                                    <constraint firstItem="FlN-PR-Jcg" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="YdP-DN-iNt" secondAttribute="leading" id="9H6-Qw-hU3"/>
                                     <constraint firstItem="2dO-p0-XUY" firstAttribute="leading" secondItem="YdP-DN-iNt" secondAttribute="leading" constant="8" id="Guu-LD-vZu"/>
                                     <constraint firstItem="2dO-p0-XUY" firstAttribute="width" secondItem="YdP-DN-iNt" secondAttribute="height" multiplier="179:158" id="M7R-l9-x4f"/>
-                                    <constraint firstAttribute="trailing" secondItem="FlN-PR-Jcg" secondAttribute="trailing" id="UXK-UZ-ou8"/>
+                                    <constraint firstAttribute="trailing" secondItem="FlN-PR-Jcg" secondAttribute="trailing" constant="10" id="UXK-UZ-ou8"/>
                                     <constraint firstAttribute="bottom" secondItem="FlN-PR-Jcg" secondAttribute="bottom" constant="39" id="XIJ-dw-4o3"/>
                                     <constraint firstAttribute="bottom" secondItem="2dO-p0-XUY" secondAttribute="bottom" constant="8" id="kMc-tg-6oG"/>
                                     <constraint firstItem="2dO-p0-XUY" firstAttribute="top" secondItem="YdP-DN-iNt" secondAttribute="top" constant="8" id="ueO-Ye-nDD"/>
@@ -814,8 +838,10 @@
                         <constraints>
                             <constraint firstItem="4Xr-ai-dcN" firstAttribute="leading" secondItem="TUO-KN-Llf" secondAttribute="leading" id="2gp-yj-CHB"/>
                             <constraint firstItem="YdP-DN-iNt" firstAttribute="top" secondItem="4Xr-ai-dcN" secondAttribute="bottom" id="C5k-B5-Va0"/>
+                            <constraint firstItem="EnL-Ry-b3C" firstAttribute="leading" secondItem="TUO-KN-Llf" secondAttribute="leading" id="GLl-cJ-o7k"/>
                             <constraint firstItem="YdP-DN-iNt" firstAttribute="leading" secondItem="TUO-KN-Llf" secondAttribute="leading" id="Gfh-Wz-RoU"/>
                             <constraint firstItem="4Xr-ai-dcN" firstAttribute="top" secondItem="Bxn-Bf-V2F" secondAttribute="bottom" id="JFF-Et-1rX"/>
+                            <constraint firstItem="EnL-Ry-b3C" firstAttribute="top" secondItem="Bxn-Bf-V2F" secondAttribute="bottom" id="QaZ-Jp-3gi"/>
                             <constraint firstItem="Bxn-Bf-V2F" firstAttribute="leading" secondItem="TUO-KN-Llf" secondAttribute="leading" id="YFE-Ks-gKt"/>
                             <constraint firstAttribute="trailing" secondItem="Bxn-Bf-V2F" secondAttribute="trailing" id="ZN0-Dx-Oam"/>
                             <constraint firstAttribute="trailing" secondItem="YdP-DN-iNt" secondAttribute="trailing" id="b6U-pf-I0m"/>
@@ -830,7 +856,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FgO-9I-rK5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="637.60000000000002" y="98.50074962518741"/>
+            <point key="canvasLocation" x="637.5" y="97.5"/>
         </scene>
     </scenes>
     <resources>
