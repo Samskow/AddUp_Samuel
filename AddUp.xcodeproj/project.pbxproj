@@ -197,7 +197,6 @@
 			children = (
 				7E78F30F1FBA7329005B778C /* icons */,
 				7EF81ED11FAE91F600492BCC /* images */,
-				9DA1D6811D7620FA0084B01E /* Fonts */,
 				9D4DEC4B1D6DDE39001490B9 /* AppDelegate.swift */,
 				9D741FF11D74BA260064B267 /* Singleton.swift */,
 				9D4DEC4D1D6DDE39001490B9 /* ViewController.swift */,
@@ -211,13 +210,6 @@
 				9D4DEC571D6DDE39001490B9 /* Info.plist */,
 			);
 			path = AddUp;
-			sourceTree = "<group>";
-		};
-		9DA1D6811D7620FA0084B01E /* Fonts */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
